@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --ruka-primary: #0948b6;
+  --ruka-primary-dark: #021c66;
+  --ruka-primary-light: #3b82f6;
+  --ruka-secondary: #10b981;
+  --ruka-secondary-dark: #059669;
+  --ruka-error: #ef4444;
+  --ruka-warning: #f59e0b;
+  --ruka-text-secondary: #4b5563;
+  --ruka-text-tertiary: #9ca3af;
+  --ruka-border: #e2e8f0;
+  --ruka-bg: #f1f5f9;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-ruka-primary: var(--ruka-primary);
+  --color-ruka-primary-dark: var(--ruka-primary-dark);
+  --color-ruka-primary-light: var(--ruka-primary-light);
+  --color-ruka-secondary: var(--ruka-secondary);
+  --color-ruka-secondary-dark: var(--ruka-secondary-dark);
+  --color-ruka-error: var(--ruka-error);
+  --color-ruka-warning: var(--ruka-warning);
+  --color-ruka-text-secondary: var(--ruka-text-secondary);
+  --color-ruka-text-tertiary: var(--ruka-text-tertiary);
+  --color-ruka-border: var(--ruka-border);
+  --color-ruka-bg: var(--ruka-bg);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
